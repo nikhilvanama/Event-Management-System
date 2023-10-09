@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bookyour event</title>
+        <link rel="stylesheet" href="style3.css">
+    
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">BOOKEVENT</h2>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#">        </a></li>
+                        <li><a href="#">        </a></li>
+                        <li><a href="index.html">LOGIN</a></li>
+                    </ul>
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"> <img src="images/slide.jpg" alt=""></div>
+                </div>    
+                <form action="store.jsp" method="post">
+                    <div class="form">
+                        <h2>BOOK YOUR EVENT </h2>   
+                        <input type="text" name="fname" placeholder= "write your full name" size="15" required />   
+                        
+                        <input type="text" name="uname" placeholder="create your own unique username" size="15" required />
+                        <br> 
+                        <select required name='event' >
+                            <option value="">Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select> 
+ 
+                        <br>
+                        <input type="text" name="phone" placeholder="phone no." size="10" required>   
+                        
+                        <input type="text" placeholder="Enter Email" name="email" required>  
+                        <br>
+                        <input type="password" placeholder="Enter Password" name="psw" required>  
+                        
+                        <input type="password" placeholder="Retype Password" name="psw-repeat" required>
+                        <br>
+                        <button type="submit" class="btn" ><a> REGISTER</a></button>
+                        <button type="reset" class="btn btn-primary"><a href="#">Clear Form</a></button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+
+
+
+    </body>
+</html>
